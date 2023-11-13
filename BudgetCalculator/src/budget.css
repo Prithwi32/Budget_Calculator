@@ -1,0 +1,91 @@
+
+.budgetArea{
+    width: 100vw;
+    height: 100vh;
+}
+
+.budget-heading{
+    color: var(--primary-color);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.budget-sub-head{
+    color: var(--primary-color);
+}
+
+.badgeStyle{
+    padding:  10px 16px;
+    position: absolute;
+    right: 80px;
+    border: none;
+    border-radius: 16px;
+    background-color: var(--card-bg-color);
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--color);
+}
+
+.editStyle{
+    background-color: var(--card-bg-color);
+    border: none;
+    border-radius: 14px;
+    color: var(--color);
+    font-size: 16px;
+    font-weight: 600;
+    padding: 8px 12px;
+    transition: all 0.3s ease-in;
+}
+
+.editStyle:hover{
+    cursor:pointer;
+    transform: scale(1.1);
+    color: rgb(208, 237, 160);
+}
+
+.displayResultHead{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.result-bgColor{
+    background-color: rgba(73, 191, 255, 0.299);
+    color:rgb(12, 101, 150);
+    padding: 19px;
+    border-radius: 6px;
+    border: 2px solid rgb(191, 212, 224);
+}
+
+.expenseItemName{
+    /* color: rgb(42, 53, 71); */
+    color:rgb(12, 101, 150);
+    font-weight: 600;
+    font-size:20px;
+}
+
+.labelName{
+    color:rgb(12, 101, 150);
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.mtSave{
+    margin-top: 28px;
+}
+
+.btn1 {
+    height: 40px;
+    width: 150px;
+    border: none;
+    border-radius: 12px;
+    background-color:var(--card-bg-color);
+    color: var(--color);
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+.btn1:hover{
+    cursor:pointer;
+    transform: scale(1.1);
+    color: rgb(208, 237, 160);
+}
